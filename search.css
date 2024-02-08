@@ -171,10 +171,11 @@ background-color: #2f2f2f;
 
 
 .playlist .list .item img {
-    width: 20%; 
-    height: 15px; 
+    width: 90%; 
+    height: 100px; 
     border-radius: 8px; 
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .preview{
