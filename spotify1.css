@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 190px;
+    background-color: black;
+    padding: 24px;
+}
+.sidebar .logo img{
+    width: 130px;
+}
+.sidebar .navigation ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.sidebar .navigation ul li{
+    padding: 10px 0px;
+}
+.sidebar .navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.sidebar .navigation ul li a:hover
+.sidebar .navigation ul li a:active
+.sidebar .navigation ul li a:focus{
+    color: #ffffff;
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa{
+    color: #b3b3b3;
+}
+.sidebar .policy{
+position: absolute;
+bottom: 100px;
+}
+.sidebar .policy ul{
+    list-style: none;
+}
+.sidebar .policy ul li{
+    padding-bottom: 5px;
+}
+.sidebar .policy ul li a{
+    color: #b3b3b3;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 8px;
+}
+.sidebar .policy ul li a:hover,
+.sidebar .policy ul li a:active,
+.sidebar .policy ul li a:focus{
+    text-decoration: underline;
+}
+
+.upper{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+}
+.topbar .left-right-btn button{
+    color: #7a7a7a;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+}
+.topbar .navbar{
+    display: flex;
+    align-items: center;
+}
+.topbar .navbar ul{
+    list-style: none;
+}
+.topbar .navbar ul li{
+    display: inline;
+    margin: 0px 8px;
+    width: 70px;
+}
+.topbar .navbar ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navigation ul li.divide{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0px 20px;
+    font-size: 20px;
+    width: auto;
+}
+.topbar .navbar button{
+    background-color: #ffffff;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus{
+background-color: #2f2f2f;
+}
+.playlist{
+    padding: 20px 40px;
+}
+.playlist h2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.playlist .list{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.playlist .list .item{
+    min-width: 150px;
+    width: 160px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.playlist .list .item :hover{
+    background-color: #252525;
+}
+.playlist .list .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.playlist .list .item .play{
+    position: relative;
+} 
+.playlist .list .item .play .fa{
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+}
+.playlist .list .item .play .fa{
+    opacity: 1;
+}
+.playlist .list .item h4{
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px;
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.playlist .list .item p{
+    color: #989898;
+    font-size: 12px;
+}
+.preview{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right,#ae2896,#509bf5);
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+.preview h5{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font: size 12px;
+    margin-bottom: 10px;
+}
+.preview p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.preview button{
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: radius 40px;
+    cursor: pointer;
+}
